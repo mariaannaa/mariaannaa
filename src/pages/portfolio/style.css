@@ -1,0 +1,147 @@
+.po_group {
+  margin-bottom: 3rem;
+}
+
+.po_group h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* MAPS = collage / masonry */
+.po_items_masonry {
+  column-width: 20em;
+  column-gap: 2rem;
+}
+
+.po_items_masonry .po_item {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1rem;
+  position: relative;
+  background: var(--secondary-color);
+  border: 1px solid rgb(55, 55, 55);
+  overflow: hidden;
+  font-size: 0;
+}
+
+.po_items_masonry .po_item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* WEBMAPS + STORYMAPS = proper grid */
+.po_items_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.po_items_grid .po_item {
+  position: relative;
+  background: var(--secondary-color);
+  border: 1px solid rgb(55, 55, 55);
+  overflow: hidden;
+}
+
+.po_items_grid .po_item img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+/* shared overlay */
+.po_item .content {
+  position: absolute;
+  inset: 0;
+  background: var(--overlay-color);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.po_item:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.po_item:hover .content {
+  opacity: 1;
+  color: var(--secondary-color);
+}
+
+.po_item .content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.po_item .content p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.po_item .content a,
+.view-project-btn {
+  background: var(--bg-color);
+  border: solid 1px rgb(77, 77, 77));
+  padding: 6px 12px;
+  text-align: center;
+  font-size: 1rem;
+  color: inherit;
+  cursor: pointer;
+}
+
+.po_item .content a:hover,
+.view-project-btn:hover {
+  text-decoration: none;
+}
+
+/* modal */
+.portfolio-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(35, 35, 35, 0.938);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 30px;
+}
+
+.portfolio-modal-content {
+  position: relative;
+  max-width: 95vw;
+  max-height: 95vh;
+  overflow: auto;
+  text-align: center;
+}
+
+.portfolio-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  line-height: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.portfolio-modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-modal-text {
+  margin-top: 1rem;
+  color: white;
+}

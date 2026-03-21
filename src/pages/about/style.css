@@ -1,0 +1,151 @@
+.multiline-cell {
+  white-space: pre-line;
+}
+
+.sec_sp {
+    margin-bottom: calc(0.1rem + 2vw)
+}
+
+.table td,
+.table th {
+    color: var(--text-color);
+}
+
+.t_border {
+    border-color: var(--text-color) !important;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+.section-title {
+    font-size: 45px;
+}
+
+.service__title {
+    padding: 3px 0;
+    border-bottom: solid 1px var(--secondary-color);
+}
+
+.service-section .service-category-title {
+    padding-bottom: px;
+}
+
+
+/*! CSS Used keyframes */
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+.toolbox-section {
+  margin-top: 2rem;
+}
+
+.toolbox-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+.toolbox-card {
+  padding: 1.25rem;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  background: transparent;
+  min-height: 100%;
+}
+
+.toolbox-card h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.toolbox-card p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.toolbox-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.toolbox-tag {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+@media (max-width: 1200px) {
+  .toolbox-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbox-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about_intro_row {
+  align-items: center;
+}
+
+.about_photo_col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about_photo {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+@media (max-width: 991px) {
+  .about_photo_col {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .about_photo {
+    max-width: 180px;
+  }
+}
