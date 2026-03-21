@@ -24,12 +24,12 @@ export const About = () => {
         </Row>
 
         <Row className="sec_sp about_intro_row align-items-center">
-          <Col xs="8" md="8" lg="7">
+          <Col lg="7">
             <h3 className="color_sec mb-2">{dataabout.title}</h3>
             <p>{dataabout.aboutme}</p>
           </Col>
 
-          <Col xs="4" md="4" lg="3" className="about_photo_col">
+          <Col lg="3" className="about_photo_col">
             <img src={aboutPhoto} alt="Maria" className="about_photo" />
           </Col>
         </Row>
