@@ -6,5 +6,4 @@ I am a final year Copernicus Digital Earth [(CDE)](https://master-cde.eu/) Maste
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 
 ## 🪩 My other socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mariafedy)  ![Portfolio](https://img.shields.io/badge/Portfolio-badge?style=flat-square&logo=24%2C100%2C110&color=%2318646e&link=https%3A%2F%2Fmariaannaa.github.io%2F
-)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mariafedy)  ![Portfolio](https://img.shields.io/badge/Portfolio-badge?style=flat&logo=24%2C100%2C110&color=%2318646e&link=https%3A%2F%2Fmariaannaa.github.io%2F)
