@@ -25,45 +25,51 @@ const Portfolio = () => {
         </Row>
 
         {portfolioGroups.map((group, i) => (
-  <div key={i} className="po_group mb-5">
-    <h2 className="mb-4">{group.title}</h2>
+          <div key={i} className="po_group mb-5">
+            <h2 className="mb-4">{group.title}</h2>
 
-    <div
-      className={
-        group.title === "Maps"
-          ? "po_items_ho po_items_masonry"
-          : "po_items_ho po_items_grid"
-      }
-    >
-      {group.items.map((data, j) => (
-        <div key={j} className="po_item">
-          <img src={data.img} alt={data.title} />
-          <div className="content">
-            <h3>{data.title}</h3>
-            <p>{data.description}</p>
-
-            {data.link ? (
-              <a
-                href={data.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                view project
-              </a>
-            ) : (
-              <button
-                className="view-project-btn"
-                onClick={() => setSelectedItem(data)}
-              >
-                view project
-              </button>
+            {group.intro && (
+              <p className="po_group_intro">
+                {group.intro}
+              </p>
             )}
+
+            <div
+              className={
+                group.title === "Maps"
+                  ? "po_items_ho po_items_masonry"
+                  : "po_items_ho po_items_grid"
+              }
+            >
+              {group.items.map((data, j) => (
+                <div key={j} className="po_item">
+                  <img src={data.img} alt={data.title} />
+                  <div className="content">
+                    <h3>{data.title}</h3>
+                    <p>{data.description}</p>
+
+                    {data.link ? (
+                      <a
+                        href={data.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        view project
+                      </a>
+                    ) : (
+                      <button
+                        className="view-project-btn"
+                        onClick={() => setSelectedItem(data)}
+                      >
+                        view project
+                      </button>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
-  </div>
-))}
+        ))}
 
         {selectedItem && (
           <div className="portfolio-modal" onClick={() => setSelectedItem(null)}>

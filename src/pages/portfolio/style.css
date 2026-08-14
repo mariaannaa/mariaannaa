@@ -6,6 +6,15 @@
   margin-bottom: 1.5rem;
 }
 
+/* Intro text below section heading */
+.po_group_intro {
+  max-width: 850px;
+  margin: -0.5rem 0 2rem 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+
 /* MAPS = collage / masonry */
 .po_items_masonry {
   column-width: 20em;
@@ -29,7 +38,8 @@
   display: block;
 }
 
-/* WEBMAPS + STORYMAPS = proper grid */
+
+/* WEBMAPS + STORYMAPS + MASTER THESIS = grid */
 .po_items_grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -50,24 +60,27 @@
   display: block;
 }
 
-/* shared overlay */
+
+/* Shared overlay */
 .po_item .content {
   position: absolute;
   inset: 0;
   background: var(--overlay-color);
   z-index: 1;
+
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+
   padding: 1rem;
   opacity: 0;
-  transition: 0.3s ease;
+  transition: opacity 0.3s ease;
   text-align: center;
 }
 
 .po_item:hover {
-  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
 }
 
 .po_item:hover .content {
@@ -88,7 +101,7 @@
 .po_item .content a,
 .view-project-btn {
   background: var(--bg-color);
-  border: solid 1px rgb(77, 77, 77));
+  border: 1px solid rgb(77, 77, 77);
   padding: 6px 12px;
   text-align: center;
   font-size: 1rem;
@@ -101,14 +114,17 @@
   text-decoration: none;
 }
 
-/* modal */
+
+/* Modal */
 .portfolio-modal {
   position: fixed;
   inset: 0;
   background: rgba(35, 35, 35, 0.938);
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   z-index: 9999;
   padding: 30px;
 }
@@ -125,12 +141,15 @@
   position: absolute;
   top: 10px;
   right: 10px;
+
   font-size: 2rem;
   line-height: 1;
+
   background: transparent;
   border: none;
   color: white;
   cursor: pointer;
+
   z-index: 2;
 }
 
@@ -144,4 +163,27 @@
 .portfolio-modal-text {
   margin-top: 1rem;
   color: white;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .po_group_intro {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .po_items_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .po_items_grid .po_item img {
+    height: auto;
+  }
+
+  .portfolio-modal {
+    padding: 15px;
+  }
 }

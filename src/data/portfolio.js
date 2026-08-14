@@ -1,4 +1,5 @@
 import eryri from "../assets/portfolio/maps/eryri.png";
+import salz_framed from "../assets/portfolio/maps/salz_framed.png";
 import kitz from "../assets/portfolio/maps/kitz.png";
 import zell from "../assets/portfolio/maps/zell.jpg";
 import multivar_se_europe from "../assets/portfolio/maps/multivar_se_europe.jpg";
@@ -19,7 +20,32 @@ import strava_dash from "../assets/portfolio/webmaps/strava_dash.png";
 import aa from "../assets/portfolio/storymaps/aa.png";
 import gaisberg_hike from "../assets/portfolio/storymaps/gaisberg_hike.png";
 
+import mt_dash from "../assets/portfolio/mt/dash.png";
+import mt_web from "../assets/portfolio/mt/web.png";
+
 export const portfolioGroups = [
+  {
+    title: "Master Thesis",
+     intro:
+    "My master thesis explored methods for combining and visualising urban mobility datasets with different spatial and temporal resolutions. The work combines data processing, interactive visualisation, and web mapping for mobility analysis.",
+    items: [
+      {
+        type: "link",
+        img: mt_dash,
+        title: "Envelopa Mobility Dashboard",
+        description: "Interactive web map application to explore mobility trends in the Envelopa Campus.",
+        link: "https://mariaannaa.github.io/envelopa_dashboard/",
+      },
+      {
+        type: "link",
+        img: mt_web,
+        title: "Master Thesis Website",
+        description: "Summarises the master thesis methodology and findings.",
+        link: "https://mariaannaa.github.io/thesis_website/",
+      },
+    ],
+
+  },
   {
     title: "Maps",
     items: [
@@ -29,6 +55,12 @@ export const portfolioGroups = [
         title: "Eryri National Park",
         description: "Contemporary view of Eryri National Park (Snowdonia) (above), with a detailed view of Cadair Idris (below). Created using ArcGIS Pro.",
       },
+      {
+        type: "image",
+        img: salz_framed,
+        title: "Salzburg City Map",
+        description: "Artistic map of Kitzsteinhorn. Created using QGIS and Affinity Designer.",
+      }, 
       {
         type: "image",
         img: kitz,
