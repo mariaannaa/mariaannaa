@@ -1,5 +1,5 @@
 import eryri from "../assets/portfolio/maps/eryri.png";
-import salz_framed from "../assets/portfolio/maps/salz_framed.png";
+import salz_framed from "../assets/portfolio/maps/salz_framed.jpg";
 import kitz from "../assets/portfolio/maps/kitz.png";
 import zell from "../assets/portfolio/maps/zell.jpg";
 import multivar_se_europe from "../assets/portfolio/maps/multivar_se_europe.jpg";
