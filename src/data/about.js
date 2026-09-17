@@ -1,7 +1,7 @@
 export const dataabout = {
   title: "",
   aboutme:
-    "I am a Copernicus Masters Digital Earth student in the final semester of my studies; I'm currently writing my thesis which focuses on the geovisualisation of mobility patterns using multisource data. Throughout my studies, I have developed a strong knowledge in geospatial analysis and data visualisation methods. I have a background in environmental geography as well as corporate consultancy experience. In my free time, I enjoy reading, exploring the outdoors, and triathlon training.",
+    "I am a Copernicus Masters Digital Earth student in the final semester of my studies. I'm currently preparing to defend my thesis at the end of September, which focuses on the geovisualisation of mobility patterns using multisource data. \n Throughout my studies, I have developed a strong knowledge in geoinformatics and data visualisation methods. My background is in environmental geography as well as corporate consultancy experience, which complements my technical skills with a practical understanding. \n In my free time, I enjoy reading, exploring the outdoors, and triathlon training.",
 };
 
 export const worktimeline = [
@@ -58,6 +58,6 @@ export const services = [
   {
     title: "Environment and Infrastructure Consultant at Savills - 2022-2024",
     description:
-      "In this role, I worked on a wide range of schemes from small residential through to Nationally Significant Infrastructure Projects (NSIPs) across the UK. Within the Environment and Infrastructure Department, I played a key role in the Air Quality, Health Impact, and Acoustics and Vibration teams. Throughout my role, I implemented GIS solutions to support planning applications and enhance reports."
+      "In this role, I worked on a wide range of schemes from small residential through to Nationally Significant Infrastructure Projects (NSIPs) across the UK. Within the Environment and Infrastructure Department, I played a key role in the Air Quality, Health Impact, and Acoustics and Vibration teams producing techincal reports, collaborating with stakeholders, and managing projects. Within my role, I also introduced GIS solutions to support planning applications and enhance reports."
   },
 ];

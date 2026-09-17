@@ -12,6 +12,7 @@ import bad_map from "../assets/portfolio/maps/bad_map.png";
 import arctic_ice from "../assets/portfolio/maps/arctic_ice.jpg";
 import envelopa from "../assets/portfolio/maps/envelopa.jpg";
 import nz from "../assets/portfolio/maps/nz.jpg";
+import sst_med from "../assets/portfolio/maps/sst_med.jpg";
 
 import olbikes from "../assets/portfolio/webmaps/ol_bikes.png";
 import salz_trees from "../assets/portfolio/webmaps/salz_trees.png";
@@ -27,7 +28,7 @@ export const portfolioGroups = [
   {
     title: "Master Thesis",
      intro:
-    "My master thesis explored methods for combining and visualising urban mobility datasets with different spatial and temporal resolutions. The work combines data processing, interactive visualisation, and web mapping for mobility analysis.",
+    "My master thesis, Geovisualisation of Mobility Patterns Using Multisource Data: A Case Study at Envelopa Campus, Olomouc, explored methods for combining and visualising urban mobility datasets with different spatial and temporal resolutions. The work combines data processing, interactive visualisation, and web mapping for mobility analysis.",
     items: [
       {
         type: "link",
@@ -59,7 +60,7 @@ export const portfolioGroups = [
         type: "image",
         img: salz_framed,
         title: "Salzburg City Map",
-        description: "Artistic map of Kitzsteinhorn. Created using QGIS and Affinity Designer.",
+        description: "Artistic map of Salzburg. Created using QGIS and Affinity Designer.",
       }, 
       {
         type: "image",
@@ -78,6 +79,12 @@ export const portfolioGroups = [
         img: multivar_se_europe,
         title: "The Tourist Potential of South-Eastern Europe Countries",
         description: "Bivariate map, created using ArcGIS Pro.",
+      },
+      {
+        type: "image",
+        img: sst_med,
+        title: "Sea Surface Temperature (SST) Anomalies in the Mediterranean",
+        description: "SST anomalies compared to the 1991-2020 average in the Mediterranean Sea, created using ArcGIS Pro and Affinity Designer.",
       },
       {
         type: "image",
@@ -179,7 +186,7 @@ export const portfolioGroups = [
         type: "link",
         img: gaisberg_hike,
         title: "Hiking routes of Gaisberg",
-        description: "Explains Anticipatory Action, its benefits, and applications.",
+        description: "Details the methodology taken for a group project for the creation of a map of Hiking Routes on Gaisberg.",
         link: "https://arcg.is/nmGKH1",
       },
     ],

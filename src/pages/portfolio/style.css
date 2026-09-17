@@ -8,7 +8,7 @@
 
 /* Intro text below section heading */
 .po_group_intro {
-  max-width: 850px;
+  max-width: 1150px;
   margin: -0.5rem 0 2rem 0;
   font-size: 1.05rem;
   line-height: 1.7;
@@ -55,7 +55,7 @@
 
 .po_items_grid .po_item img {
   width: 100%;
-  height: 260px;
+  height: 290px;
   object-fit: cover;
   display: block;
 }

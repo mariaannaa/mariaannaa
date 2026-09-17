@@ -20,13 +20,13 @@ const blog1 = {
 
       <li><strong>Career development:</strong> Looking to what will follow after 2 years in the CDE programme, we covered soft skills, creating startups, and heard from past students. It also gave me the nudge to create this website, which I am learning so much from developing, and having fun with too, as a relatively new coder.</li>
 
-      <li><strong>Geovisualisation and Advanced Cartography:</strong> Various tools within the ESRI suite were explored and I was able to further develop my understanding of cartographic principles. I also gained my first experience with web mapping; you can view the Leaflet map I made within this course <a href="https://mariaannaa.github.io/projects/Leaflet" target="_blank" rel="noopener noreferrer">here</a>.</li>
+      <li><strong>Geovisualisation and Advanced Cartography:</strong> Various tools within the ESRI suite were explored and I was able to further develop my understanding of cartographic principles. I also gained my first experience with web mapping; you can view the Leaflet map I made within this course <a href="https://mariaannaa.github.io/salz-huts/" target="_blank" rel="noopener noreferrer">here</a>.</li>
 
       <li><strong>Advanced Remote Sensing:</strong> This course covered image pre-processing, acquisition types, and knowledge representation. I developed a really strong understanding of how applications differ between different sensor types, as well as practical experience applying image segmentations and using synthetic aperture radar (SAR) data to assess ground deformation.</li>
 
       <li><strong>Digital Earth: Big Earth Data Concepts:</strong> I learnt a lot here about different data cubes that exist and why they are so important for an increasingly data rich world, Copernicus services and their real world applications, gained more practical experience using Google Earth Engine (GEE) (see <a href="https://mariaannaa.github.io/projects/GEE" target="_blank" rel="noopener noreferrer">here</a>), and how analysis ready data (ARD) can be a useful thing but should also be treated with caution.</li>
 
-      <li><strong>Geohumanitarian Action:</strong> Here, I expanded my knowledge of various Geohumanitarian applications, you can read more about that <a href="https://mariaannaa.github.io/projects/aa_for_geohum" target="_blank" rel="noopener noreferrer">here</a>.</li>
+      <li><strong>Geohumanitarian Action:</strong> Here, I expanded my knowledge of various Geohumanitarian applications, you can read more about that <a href="https://storymaps.arcgis.com/stories/3d759c890af1416f8b006de605e028d6" target="_blank" rel="noopener noreferrer">here</a>.</li>
 
       <li><strong>Design of Geospatial Data Models:</strong> This covered business process modelling, XML, GML and other file formats. It got me thinking about the theory of GIS applications and ways in which systems can be modified to operate more efficiently.</li>
 

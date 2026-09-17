@@ -3,13 +3,12 @@ import maria from "../assets/images/headshot.jpeg";
 export const introdata = {
   title: "Hello! I am Maria",
   animated: {
-    first: "I am a GIS Specialist",
+    first: "I’m a GIS Specialist",
     second: "I create geovisualisations",
-    third: "I make data come alive",
+    third: "I turn data into insight",
   },
   description:
-    "With a background in environmental geography, geospatial expertise, and corporate experience, I bring a unique mix of technical skill and creativity to my work. I focus on turning complex information into content that is engaging, informative, and visually compelling.\n Feel free to explore my portfolio to learn more about my work, and don’t hesitate to get in touch if you’d like to connect.",
-
+    "With a background in environmental geography, geoinformatics, and corporate experience, I combine technical expertise with a strong visual approach. I use this to transform complex data into clear, engaging, and meaningful insights that help people understand patterns, relationships, and real-world processes. \nExplore my portfolio to learn more about my experiences and view a selection of my work.",
 
   your_img_url: maria,
 };

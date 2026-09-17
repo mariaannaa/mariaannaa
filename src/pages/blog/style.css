@@ -10,7 +10,7 @@
 
 .blog-card {
   display: grid;
-  grid-template-columns: minmax(240px, 320px) 1fr;
+  grid-template-columns: minmax(240px, 380px) 1fr;
   gap: 1.5rem;
   align-items: start;
   border-bottom: 1px solid rgba(128, 128, 128, 0.2);

@@ -26,7 +26,7 @@ export const About = () => {
         <Row className="sec_sp about_intro_row align-items-center">
           <Col lg="7">
             <h3 className="color_sec mb-2">{dataabout.title}</h3>
-            <p>{dataabout.aboutme}</p>
+            <p style={{ whiteSpace: "pre-line" }}>{dataabout.aboutme}</p>
           </Col>
 
           <Col lg="3" className="about_photo_col">
