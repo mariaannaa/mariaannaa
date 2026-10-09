@@ -1,6 +1,6 @@
 # 🌻 Hiya, I'm Maria! 🌻
 
-I am a Copernicus Digital Earth [(CDE)](https://master-cde.eu/) Master's graduate, specialising in Geovisualisation and Geocommunication. Currently, I am writing my thesis, which focuses on methods for overlaying urban mobility data with varying temporal and spatial resolutions. I am constantly aiming to improve my workflows by integrating coding to automate processes, and expand my tech capabilities 🌏
+I am a Copernicus Digital Earth [(CDE)](https://master-cde.eu/) Master's graduate, specialised in Geovisualisation and Geocommunication. My thesis focused on methods for overlaying urban mobility data with varying temporal and spatial resolutions. Alongside this, my general areas of interest include geospatial analysis, data visualisation to communicate complex topics, and physical geography processes. I am constantly aiming to improve my workflows by integrating coding to automate processes and expand my tech capabilities 🌏
 
 ## 💡 The main tech I use:
 
